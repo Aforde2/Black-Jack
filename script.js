@@ -113,7 +113,7 @@ shuffleDeck()
 function randomCards(finalCard){ //places random card in dealer hand
     const cardImg = document.createElement('img');
     const card = deck.pop();
-    cardImg.src = "./images/" + card + ".png";
+    cardImg.src = "./Images/" + card + ".png";
     finalCard.appendChild(cardImg);
     const value = getValue(card)
     playerArray.push(value)
@@ -130,7 +130,7 @@ function randomCards(finalCard){ //places random card in dealer hand
 function randomCards2(finalCard){ //places random card in dealer hand
     const cardImg = document.createElement('img');
     const card = deck.pop();
-    cardImg.src = "./images/" + card + ".png";
+    cardImg.src = "./Images/" + card + ".png";
     finalCard.appendChild(cardImg);
     const value = getValue(card)
     dealerArray.push(value)
